@@ -12,8 +12,6 @@ newUser.innerText = "NEW USER"
 newUser.style.color = "green"
 
 
-
-
 //existing user button
 const existingUser = document.createElement("button")
 existingUser.style.color = "red"
@@ -42,5 +40,4 @@ box.style.alignitems = "center";
 box.appendChild(newUser)
 box.appendChild(text)
 box.appendChild(existingUser)
-
 document.body.appendChild(box)
