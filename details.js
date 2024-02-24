@@ -75,9 +75,9 @@ submitbutton.innerText = "SUBMIT"
 box.appendChild(submitbutton)
 
 outer.appendChild(box); 
+                                                                     
 
-
-//outer.style.background = "linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('loginpage image/background.jpg')";
+outer.style.background = "linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('userdetail image/details.jpg')";
 outer.style.backgroundSize = "cover";
 outer.style.backgroundPosition = "center";
 outer.style.display = "flex";
@@ -92,7 +92,7 @@ box.style.justifyContent = "center";
 box.style.alignItems = "center";
 box.style.flexDirection = "column";
 box.style.border = "25px solid black";
-box.style.borderRadius = '5em';
+ // box.style.borderRadius = '5em';
 box.style.height = "470px";
 box.style.width = "450px";
 
